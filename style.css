@@ -1,0 +1,72 @@
+.car{
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid rgb(233, 233, 233);
+}
+.property{
+  background-color: rgb(233, 233, 233);
+  padding: 10px 12px;
+  border-radius: 50%;
+  border: 1px solid rgb(233, 233, 233);
+
+}
+.form, .search{
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.4px;
+}
+.form:focus{
+  outline: 3px solid aquamarine;
+  border: none;
+}
+.search:focus{
+  outline: 3px solid aquamarine;
+  border: none;
+
+}
+.search{
+  height: 50px;
+  width: 350px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  transition: 0.4px;
+}
+.search-btn{
+  margin-left: -10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.drop-content{
+  display: none;
+  background-color: gainsboro;
+  transition: 0.4s;
+  width: 100%;
+}
+.openDrop{
+  text-decoration: underline;
+  width: 200px;
+  transition: 0.4s;
+  margin-top: 10px;
+}
+
+.openDrop:hover .drop-content{
+  display: block;
+
+}
+.nav-hover{
+  color: black;
+}
+.nav-hover:hover{
+  color: aqua;
+}
+
+.carousel-item img {
+  height: 82vh;
+}
+
+.carousel-caption {
+  text-align: center;
+  margin-bottom: 170px;
+}
